@@ -172,21 +172,32 @@ module.exports = function(grunt) {
                         "node_modules/qulog/qulog.js"
                     ]
                 }
-            },
+            }
+        },
+        coveralls: {
+            options: {
+                // LCOV coverage file relevant to every target
+                src: coverageDir + "/lcov.info",
 
-            // Documentation
-            env: {
-                doc: {
-                    JSDOC_GITHUBIFY_REMOTE: "<%= pkg.repository.url %>",
-                    JSDOC_GITHUBIFY_BRANCH: "master"
-                }
-            },
-            jsdoc : {
-                dist : {
-                    src: ["src/**/*.js"],
-                    options: {
-                        destination: 'doc'
-                    }
+                // When true, grunt-coveralls will only print a warning rather than
+                // an error, to prevent CI builds from failing unnecessarily (e.g. if
+                // coveralls.io is down). Optional, defaults to false.
+                force: false
+            }
+        },
+
+        // Documentation
+        env: {
+            doc: {
+                JSDOC_GITHUBIFY_REMOTE: "<%= pkg.repository.url %>",
+                JSDOC_GITHUBIFY_BRANCH: "master"
+            }
+        },
+        jsdoc : {
+            dist : {
+                src: ["src/**/*.js"],
+                options: {
+                    destination: 'doc'
                 }
             }
         }
@@ -198,9 +209,10 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-banner');
 
-    // For tests
+    // For tests & coverage
     grunt.loadNpmTasks('grunt-jasmine-node');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
+    grunt.loadNpmTasks('grunt-coveralls');
 
     // Documentation
     grunt.loadNpmTasks('grunt-env');
@@ -221,7 +233,7 @@ module.exports = function(grunt) {
         };
         task["coverage"] = {
             name: "coverage",
-            list: task.build.list.concat(["jasmine:coverage"])
+            list: task.build.list.concat(["jasmine:coverage", "coveralls"])
         };
         task["ci"] = {
             name: "ci",

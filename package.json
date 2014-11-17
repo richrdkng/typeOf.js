@@ -15,7 +15,7 @@
   "main": "typeof.js",
   "scripts": {
     "build": "npm install && grunt build",
-    "test": "grunt test --verbose"
+    "test": "grunt ci --verbose"
   },
   "dependencies": {},
   "devDependencies": {
@@ -34,7 +34,8 @@
     "grunt-jsdoc": "~0.5.7",
     "jsdoc": "~3.3.0-alpha2",
     "jsdoc-githubify": "~0.1.3",
-    "grunt-env": "~0.4.2"
+    "grunt-env": "~0.4.2",
+    "grunt-coveralls": "~1.0.0"
   },
   "keywords": [
     "typeof.js",
