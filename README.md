@@ -1,8 +1,8 @@
 ![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js logo")
 
 [![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
-[![Dependency Status](https://david-dm.org/richard-kng/qulog.png)](https://david-dm.org/richard-kng/qulog)
-[![devDependency Status](https://david-dm.org/richard-kng/qulog.svg?theme=shields.io)](https://david-dm.org/richard-kng/qulog#info=devDependencies)
+[![Dependency Status](https://david-dm.org/richard-kng/qulog.svg?style=flat)](https://david-dm.org/richard-kng/qulog)
+[![devDependency Status](https://david-dm.org/richard-kng/qulog.svg?style=flat)](https://david-dm.org/richard-kng/qulog#dev-badge-embed)
 [![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE-MIT)
 
