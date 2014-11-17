@@ -1,6 +1,6 @@
 ![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js logo")
 
-[![Build Status](https://travis-ci.org/richard-kng/typeof.js.svg?branch=master)](https://travis-ci.org/richard-kng/typeof.js)
+[![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE-MIT)
 
 __Fix for \"typeof\" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)/[problems](http://javascript.crockford.com/remedial.html) in JavaScript. AMD/CommonJS/Browser compatible.__
