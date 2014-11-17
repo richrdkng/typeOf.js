@@ -1,4 +1,4 @@
-#![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js logo")
+#![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js logo")(https://github.com/richard-kng/typeof.js)
 
 [![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
 [![Dependency Status](https://david-dm.org/richard-kng/qulog.svg)](https://david-dm.org/richard-kng/qulog)
