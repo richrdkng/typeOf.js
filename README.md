@@ -13,6 +13,7 @@ __AMD / CommonJS / Browser compatible.__
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 Index
 -----
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
  * [Getting Started](#getting-started-)
  * [API & Usage](#api--usage-)
  * [Suggestions, Requests & Ideas](#suggestions-requests--ideas-)
