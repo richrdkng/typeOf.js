@@ -1,8 +1,9 @@
 ![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js logo")
 
-typeof.js [![Build Status](https://travis-ci.org/richard-kng/typeof.js.svg?branch=master)](https://travis-ci.org/richard-kng/typeof.js)
-=========
-__Provides a feature to use static initializers in classes. ECMAScript 6.__
+[![Build Status](https://travis-ci.org/richard-kng/typeof.js.svg?branch=master)](https://travis-ci.org/richard-kng/typeof.js)
+[![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE-MIT)
+
+__Fix for \"typeof\" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)/[problems](http://javascript.crockford.com/remedial.html) in JavaScript. AMD/CommonJS/Browser compatible.__
 
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 
@@ -51,7 +52,7 @@ Copyright (c) 2014 "Richard KnG" Richárd Szakács. __Licensed under the MIT lic
 The license mentioned above applies to all parts of this software except as
 documented below
 
-All files located in the node_modules and external directories are
+All files located in the node_modules, external directories and other directories are
 externally maintained libraries used by this software which have their
 own licenses. We recommend you read them, as their terms may differ from
 the terms above.
