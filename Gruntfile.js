@@ -40,8 +40,8 @@ module.exports = function(grunt) {
         clean: [
             "./" + src + ".js",
             "./" + src + ".min.js",
-            distributionDir + "/" + src + ".js",
-            distributionDir + "/" + src + ".min.js"
+            distributionDir,
+            coverageDir
         ],
         uglify: {
             dist: {
@@ -149,7 +149,18 @@ module.exports = function(grunt) {
                     template: require('grunt-template-jasmine-istanbul'),
                     templateOptions: {
                         coverage: coverageDir + '/coverage.json',
-                        report: coverageDir,
+                        report: [
+                            {   type: "html",
+                                options: {
+                                    dir: coverageDir
+                                }
+                            },
+                            {   type: "lcov",
+                                options: {
+                                    dir: coverageDir
+                                }
+                            }
+                        ],
                         thresholds: {
                             lines: 75,
                             statements: 75,
