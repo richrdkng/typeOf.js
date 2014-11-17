@@ -16,9 +16,9 @@ Index
  * [Getting Started](#getting-started-)
  * [API & Usage](#api--usage-)
  * [Suggestions, Requests & Ideas](#suggestions-requests--ideas-)
- * [Issues / Bugs](#issues---bugs-)
+ * [Issues / Bugs](#issues--bugs-)
  * [Support](#support-)
- * [Contribution & A Note](#contribution---a-note-)
+ * [Contribution & A Note](#contribution--a-note-)
  * [License](#license-)
 
 Getting Started [&#9652;](#index)
@@ -39,7 +39,7 @@ __Download directly__ __(Do not link this directly on your site, the file is sen
 API & Usage [&#9652;](#index)
 -----------
 
-Suggestions, Requests & Ideas
+Suggestions, Requests & Ideas [&#9652;](#index)
 -----------------------------
 Post any occurring suggestions, useful ideas and requests to the project's issue page under the __suggestion/idea/request__ label by clicking [here](https://github.com/richard-kng/typeof.js/labels/suggestion/idea/request).
 
