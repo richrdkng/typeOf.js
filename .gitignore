@@ -4,6 +4,9 @@
 # Dependency directory
 node_modules
 
+# Coverage reports
+cvg
+
 # Documentation, logos and icons
 doc/logo/*.ai
 

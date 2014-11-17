@@ -216,7 +216,7 @@ module.exports = function(grunt) {
 
     // Documentation
     grunt.loadNpmTasks('grunt-env');
-    grunt.loadNpmTasks('grunt-jsdoc');
+    //grunt.loadNpmTasks('grunt-jsdoc');
 
     var task = {};
         task["build"] = {
@@ -233,11 +233,15 @@ module.exports = function(grunt) {
         };
         task["coverage"] = {
             name: "coverage",
-            list: task.build.list.concat(["jasmine:coverage", "coveralls"])
+            list: [].concat(
+                task.build.list,
+                ["jasmine:coverage", "coveralls"]
+            )
         };
         task["ci"] = {
             name: "ci",
-            list: task.build.list.concat(
+            list: [].concat(
+                task.build.list,
                 task.test.list,
                 task.coverage.list
             )
