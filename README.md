@@ -1,5 +1,5 @@
 #[![typeof.js logo](doc/logo/typeof.js_logo.png)](#)
-
+<a id="project-desc-top"></a>
 [![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
 [![Coverage Status](https://img.shields.io/coveralls/slara/generator-reveal.svg)](https://coveralls.io/r/slara/generator-reveal?branch=master)
 [![Dependency Status](https://david-dm.org/richard-kng/qulog.svg)](https://david-dm.org/richard-kng/qulog)
@@ -10,12 +10,10 @@ ___
 __Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) / [problems](http://javascript.crockford.com/remedial.html) in JavaScript.__<br/>
 __AMD / CommonJS / Browser compatible.__
 
-<a id="top-line" href="#topline">AAA</a>
-
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 Index
 -----
-* [Top](#user-content)
+* [Top](#project-desc-top)
 * [Getting Started](#getting-started)
 
 Getting Started
