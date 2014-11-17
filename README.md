@@ -1,4 +1,4 @@
-#<a id="project-desc-very-top">[![typeof.js logo](doc/logo/typeof.js_logo.png)](#project-desc-very-top)</a>
+<a id="project-desc-very-top">[![typeof.js logo](doc/logo/typeof.js_logo.png)](#project-desc-very-top)</a>
 
 [![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
 [![Coverage Status](https://img.shields.io/coveralls/slara/generator-reveal.svg)](https://coveralls.io/r/slara/generator-reveal?branch=master)
@@ -13,7 +13,7 @@ __AMD / CommonJS / Browser compatible.__
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 Index
 -----
-* [Top](#project-desc-top)
+* [Top](#project-desc-very-top)
 * [Getting Started](#getting-started)
 
 Getting Started [&#9652;](#index)
