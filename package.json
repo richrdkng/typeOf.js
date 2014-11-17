@@ -1,0 +1,45 @@
+{
+  "name": "typeof.js",
+  "description": "Fix of \"typeof\" inconsistencies in JavaScript. AMD (Require.js) and browser compatible.",
+  "version": "1.0.2",
+  "homepage": "https://github.com/richard-kng/typeof.js",
+  "author": "Richard KnG <richrdkng@gmail.com> (https://github.com/richard-kng)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richard-kng/typeof.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/richard-kng/typeof.js/issues"
+  },
+  "license": "MIT",
+  "main": "es6.static.initializer",
+  "scripts": {
+    "build": "npm install && grunt build",
+    "test": "grunt --verbose"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "~0.4.5",
+    "grunt-banner": "~0.2.3",
+    "grunt-contrib-copy": "~0.7.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-contrib-uglify": "~0.6.0",
+    "grunt-jasmine-node": "~0.2.1",
+    "qulog": "~1.0.3"    
+  },
+  "keywords": [
+    "es6",
+    "ecmascript 6",
+    "typeof.js",
+    "es6.static.initializer",
+    "javascript",
+    "js",
+    "production",
+    "utility",
+    "tool"
+  ],
+  "directories": {
+    "test": "test"
+  }
+}

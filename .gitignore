@@ -1,0 +1,14 @@
+# WebStorm directory
+.idea
+
+# Dependency directory
+node_modules
+
+# Documentation, logos and icons
+doc/logo/*.ai
+
+# Project notes
+PROJECT_NOTES
+
+# NPM Debug log
+npm-debug.log

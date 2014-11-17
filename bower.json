@@ -1,0 +1,38 @@
+{
+  "name": "es6-static-initializer",
+  "description": "Provides a feature to use static initializers in classes. ECMAScript 6.",
+  "homepage": "https://github.com/richard-kng/es6-static-initializer",
+  "repository": "git://github.com/richard-kng/es6-static-initializer.git",
+  "keywords": [
+    "es6",
+    "ecmascript 6",
+    "es6-static-initializer",
+    "es6.static.initializer",
+    "javascript",
+    "js",
+    "production",
+    "utility",
+    "tool"
+  ],
+  "authors": [
+    "Richard KnG <richrdkng@gmail.com> (https://github.com/richard-kng)"
+  ],
+  "main": "es6.static.initializer",
+  "ignore": [
+    "lib",
+    "node_modules",
+    "src",
+    "test",
+    "*.yml",
+    ".gitignore",
+    ".gitattributes",
+    ".jshintrc",
+    "Gruntfile*",
+    "*.json"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "license": [
+    "MIT"
+  ]
+}
