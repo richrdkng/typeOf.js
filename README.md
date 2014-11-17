@@ -1,9 +1,15 @@
 ![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js logo")
 
 [![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
+[![Dependency Status](https://david-dm.org/cdnjs/cdnjs.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs)
+[![devDependency Status](https://david-dm.org/cdnjs/cdnjs/dev-status.svg?theme=shields.io)](https://david-dm.org/cdnjs/cdnjs#info=devDependencies)
+[![Gitter chat](https://badges.gitter.im/cdnjs/cdnjs.svg)](https://gitter.im/cdnjs/cdnjs)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE-MIT)
 
-__Fix for \"typeof\" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)/[problems](http://javascript.crockford.com/remedial.html) in JavaScript. AMD/CommonJS/Browser compatible.__
+[![tip for next commit](https://tip4commit.com/projects/919.svg)](https://tip4commit.com/github/cdnjs/cdnjs)
+
+__Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)/[problems](http://javascript.crockford.com/remedial.html) in JavaScript.__
+__AMD/CommonJS/Browser compatible.__
 
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 
