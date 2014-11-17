@@ -10,6 +10,8 @@ ___
 __Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) / [problems](http://javascript.crockford.com/remedial.html) in JavaScript.__<br/>
 __AMD / CommonJS / Browser compatible.__
 
+<a id="top-line" href="#topline">AAA</a>
+
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 Index
 -----
