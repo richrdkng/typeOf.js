@@ -6,7 +6,7 @@
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/richard-kng/qulog?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE-MIT)
 
-__Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)/[problems](http://javascript.crockford.com/remedial.html) in JavaScript.__
+__Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)/[problems](http://javascript.crockford.com/remedial.html) in JavaScript.__ <br/>
 __AMD/CommonJS/Browser compatible.__
 
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
