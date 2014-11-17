@@ -1,6 +1,7 @@
 #![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js")
 
 [![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
+[![Coverage Status](https://img.shields.io/coveralls/slara/generator-reveal.svg)](https://coveralls.io/r/slara/generator-reveal?branch=master)
 [![Dependency Status](https://david-dm.org/richard-kng/qulog.svg)](https://david-dm.org/richard-kng/qulog)
 [![devDependency Status](https://david-dm.org/richard-kng/qulog/dev-status.svg)](https://david-dm.org/richard-kng/qulog#info=devDependencies)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/richard-kng/qulog?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
