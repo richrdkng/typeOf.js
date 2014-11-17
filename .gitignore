@@ -12,3 +12,6 @@ PROJECT_NOTES
 
 # NPM Debug log
 npm-debug.log
+
+# Grunt leftover
+.grunt

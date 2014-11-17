@@ -1,13 +1,10 @@
 {
-  "name": "es6-static-initializer",
-  "description": "Provides a feature to use static initializers in classes. ECMAScript 6.",
-  "homepage": "https://github.com/richard-kng/es6-static-initializer",
-  "repository": "git://github.com/richard-kng/es6-static-initializer.git",
+  "name": "typeof.js",
+  "description": "Fix of \"typeof\" inconsistencies in JavaScript. AMD (Require.js) and browser compatible.",
+  "homepage": "https://github.com/richard-kng/typeof.js",
+  "repository": "git://github.com/richard-kng/typeof.js.git",
   "keywords": [
-    "es6",
-    "ecmascript 6",
-    "es6-static-initializer",
-    "es6.static.initializer",
+    "typeof.js",
     "javascript",
     "js",
     "production",
@@ -17,9 +14,10 @@
   "authors": [
     "Richard KnG <richrdkng@gmail.com> (https://github.com/richard-kng)"
   ],
-  "main": "es6.static.initializer",
+  "main": "typeof.js",
   "ignore": [
-    "lib",
+    "cvg",
+    "dist",
     "node_modules",
     "src",
     "test",

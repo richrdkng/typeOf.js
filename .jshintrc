@@ -9,6 +9,6 @@
     "noarg": true,
     "node": true,
     "sub": true,
-    "undef": true,
-    "esnext": true
+    "undef": false,
+    "esnext": false
 }
