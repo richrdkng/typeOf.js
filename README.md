@@ -13,10 +13,9 @@ __AMD / CommonJS / Browser compatible.__
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 Index
 -----
-* [Top](#project-desc-top)
 * [Getting Started](#getting-started)
 
-Getting Started
+Getting Started [&#9652;](#index)
 ---------------
 
 __NPM__ ([What is NPM?](https://docs.nodejitsu.com/articles/getting-started/npm/what-is-npm) [What is Grunt?](http://gruntjs.com/))
