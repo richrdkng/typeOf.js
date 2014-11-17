@@ -5,9 +5,7 @@
 [![devDependency Status](https://david-dm.org/richard-kng/qulog/dev-status.svg)](https://david-dm.org/richard-kng/qulog#info=devDependencies)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/richard-kng/qulog?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 [![License](http://img.shields.io/:license-mit-blue.svg)](LICENSE-MIT)
-<br/>
 ___
-<br/>
 __Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof)/[problems](http://javascript.crockford.com/remedial.html) in JavaScript.__<br/>
 __AMD/CommonJS/Browser compatible.__
 ___
