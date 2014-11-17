@@ -1,5 +1,5 @@
-#![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js")
----
+#![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js")   
+
 [![Build Status](https://travis-ci.org/richard-kng/qulog.svg?branch=master)](https://travis-ci.org/richard-kng/qulog)
 [![Coverage Status](https://img.shields.io/coveralls/slara/generator-reveal.svg)](https://coveralls.io/r/slara/generator-reveal?branch=master)
 [![Dependency Status](https://david-dm.org/richard-kng/qulog.svg)](https://david-dm.org/richard-kng/qulog)
