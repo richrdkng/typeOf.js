@@ -12,6 +12,10 @@ __AMD/CommonJS/Browser compatible.__
 
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 
+Index
+-----
+* [Getting Started](#getting-started)
+
 Getting Started
 ---------------
 
