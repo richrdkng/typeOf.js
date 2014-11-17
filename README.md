@@ -14,6 +14,7 @@ To support this project, you can at [the support page](http://richard-kng.github
 
 Index
 -----
+* [Top](#)
 * [Getting Started](#getting-started)
 
 Getting Started
