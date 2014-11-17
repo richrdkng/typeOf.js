@@ -1,4 +1,4 @@
-![typeof.js logo](doc\logo\typeof.js_logo.png "typeof.js logo")
+![typeof.js logo](doc/logo/typeof.js_logo.png "typeof.js logo")
 
 typeof.js [![Build Status](https://travis-ci.org/richard-kng/typeof.js.svg?branch=master)](https://travis-ci.org/richard-kng/typeof.js)
 =========
