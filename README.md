@@ -5,7 +5,7 @@
 [![Dependency Status](https://david-dm.org/richard-kng/qulog.svg)](https://david-dm.org/richard-kng/qulog)
 [![devDependency Status](https://david-dm.org/richard-kng/qulog/dev-status.svg)](https://david-dm.org/richard-kng/qulog#info=devDependencies)
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/richard-kng/qulog?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![License](http://img.shields.io/:license-mit-brightgreen.svg)](LICENSE-MIT)
+[![License](http://img.shields.io/:license-mit-brightgreen.svg)](#license)
 ___
 __Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) / [problems](http://javascript.crockford.com/remedial.html) in JavaScript.__<br/>
 __AMD / CommonJS / Browser compatible.__
@@ -13,8 +13,13 @@ __AMD / CommonJS / Browser compatible.__
 To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
 Index
 -----
-* [Top](#project-desc-very-top)
-* [Getting Started](#getting-started)
+ * [Getting Started](#getting-started)
+ * [API & Usage](#api--usage)
+ * [Suggestions, Requests & Ideas](#suggestions-requests--ideas)
+ * [Issues / Bugs](#issues---bugs)
+ * [Support](#support)
+ * [Contribution & A Note](#contribution---a-note)
+ * [License](#license)
 
 Getting Started [&#9652;](#index)
 ---------------
@@ -34,14 +39,14 @@ __Download directly__ __(Do not link this directly on your site, the file is sen
 API & Usage
 -----------
 
-Suggestions, Ideas & Requests
+Suggestions, Requests & Ideas
 -----------------------------
 Post any occurring suggestions, useful ideas and requests to the project's issue page under the __suggestion/idea/request__ label by clicking [here](https://github.com/richard-kng/typeof.js/labels/suggestion/idea/request).
 
  - Constructive criticism is encouraged and welcomed by contacting the developer or using GitHub.
 
-Issues/Bugs
------------
+Issues / Bugs
+-------------
 In case of any occurring issues and/or bugs, post on the project's [issues](https://github.com/richard-kng/typeof.js/issues) page with appropriate label(s).
 
 Support
