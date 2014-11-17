@@ -36,7 +36,7 @@ __Download directly__ __(Do not link this directly on your site, the file is sen
 
 - [es6.static.initializer.js](https://raw.githubusercontent.com/richard-kng/typeof.js/master/lib/es6.static.initializer.js)
 
-API & Usage
+API & Usage [&#9652;](#index)
 -----------
 
 Suggestions, Requests & Ideas
@@ -45,21 +45,21 @@ Post any occurring suggestions, useful ideas and requests to the project's issue
 
  - Constructive criticism is encouraged and welcomed by contacting the developer or using GitHub.
 
-Issues / Bugs
+Issues / Bugs [&#9652;](#index)
 -------------
 In case of any occurring issues and/or bugs, post on the project's [issues](https://github.com/richard-kng/typeof.js/issues) page with appropriate label(s).
 
-Support
+Support [&#9652;](#index)
 -------
 If you find this tool useful, you can support this project by supporting the developer [here](http://richard-kng.github.io/support/).
 
-Contribution & A Note
+Contribution & A Note [&#9652;](#index)
 ---------------------
 In the spirit of open source software development, this project is always open to and encourages community code contribution. To get started, just run through the source file, check the comments and general coding style and start to contribute.
 
 - In case you find this tool useful, [support it](http://richard-kng.github.io/support/) by supporting the developer, follow the developer on [social platforms](http://richard-kng.github.io/support/#social) or send an email to the developer.
 
-License
+License [&#9652;](#index)
 -------
 Copyright (c) 2014 "Richard KnG" Richárd Szakács. __Licensed under the MIT license__.
 
