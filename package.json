@@ -32,8 +32,6 @@
     "qulog": "~1.0.3",
     "requirejs": "~2.1.15",
     "grunt-jsdoc": "~0.5.7",
-
-
     "grunt-env": "~0.4.2",
     "grunt-coveralls": "~1.0.0"
   },
