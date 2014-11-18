@@ -4,8 +4,9 @@
 [![Coverage Status](https://img.shields.io/coveralls/richard-kng/typeof.js.svg)](https://coveralls.io/r/richard-kng/typeof.js)
 [![Dependency Status](https://david-dm.org/richard-kng/typeof.js.svg)](https://david-dm.org/richard-kng/typeof.js)
 [![devDependency Status](https://david-dm.org/richard-kng/typeof.js/dev-status.svg)](https://david-dm.org/richard-kng/typeof.js#info=devDependencies)
+
 [![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![License](http://img.shields.io/:license-mit-brightgreen.svg)](#license-)
+[![License](http://img.shields.io/:license-mit-orange.svg)](#license-)
 ___
 __Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) / [problems](http://javascript.crockford.com/remedial.html) in JavaScript.__<br/>
 __AMD / CommonJS / Browser compatible.__
