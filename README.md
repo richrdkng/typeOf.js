@@ -27,16 +27,20 @@ Index
     <tr>
         <td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
     </tr>
     <tr>
         <td>&#9656; &nbsp;&nbsp;<a href="#api--usage-">API & Usage</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td>
     </tr>
     <tr>
         <td>&#9656; &nbsp;&nbsp;<a href="#suggestions-requests--ideas-">Suggestions, Requests & Ideas</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td>
     </tr>
     <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
     </tr>
 </table>
