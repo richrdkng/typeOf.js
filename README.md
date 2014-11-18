@@ -7,15 +7,14 @@
     <a href="https://david-dm.org/richard-kng/typeof.js"><img src="https://david-dm.org/richard-kng/typeof.js.svg"/></a>
     <a href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img 
 src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
-</p>
-<p align="center">    
+<br>
     <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
-    <a href="#license-"><img src="http://img.shields.io/:license-mit-blue.svg"/></a>
+    <a href="#license-"><img src="http://img.shields.io/:license-mit-green.svg"/></a>
 </p>
 <br>
 <p align="center">
 <b>Fix for "typeof" operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">inconsistencies</a> / <a href="http://javascript.crockford.com/remedial.html">problems</a> in JavaScript.<br/>
-AMD / CommonJS / Browser compatible.</b>
+AMD / CommonJS / browser compatible.</b>
 <br>
 <br>
 To support this project, you can at <a href="http://richard-kng.github.io/support/">the support page</a> by supporting the developer.
