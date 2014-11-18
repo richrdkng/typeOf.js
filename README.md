@@ -62,7 +62,7 @@ In the spirit of open source software development, this project is always open t
 
 License [&#9652;](#index)
 -------
-Copyright (c) 2014 "Richard KnG" Richárd Szakács. __Licensed under the MIT license__.
+&copy; 2014 "Richard KnG" Richárd Szakács. __Licensed under the MIT license__.
 
 The license mentioned above applies to all parts of this software except as
 documented below
