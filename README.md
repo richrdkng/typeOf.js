@@ -1,5 +1,5 @@
 <p align="center">
-    <a id="project-desc-top" href="#project-desc-top"><img src="doc/logo/typeof.js_logo.png"/></a>
+    <a id="project-top" href="#project-top"><img src="doc/logo/typeof.js_logo.png"/></a>
 </p>
 <p align="center">
     <a href="https://github.com/richard-kng/typeof.js/releases"><img src="http://img.shields.io/github/release/richard-kng/typeof.js.svg"/></a>
@@ -14,7 +14,7 @@
 src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
 </p>
 <hr>
-<a id="project-desc-desc" href="#project-desc-desc"></a>
+<a id="project-description" href="#project-description"></a>
 <p align="center">
 <b>Fix for "typeof" operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">inconsistencies</a> / <a href="http://javascript.crockford.com/remedial.html">problems</a> in JavaScript.<br/>
 AMD / CommonJS / browser compatible.</b>
@@ -22,7 +22,7 @@ AMD / CommonJS / browser compatible.</b>
 <br>
 To support this project, you can at <a href="http://richard-kng.github.io/support/">the support page</a> by supporting the developer.
 </p>
-Index [&#9652;](#project-desc-top)
+Index [&#9652;](#project-top)
 -----
 <table>
     <tr>
