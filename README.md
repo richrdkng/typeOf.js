@@ -2,16 +2,16 @@
     <a id="project-desc-top" href="#project-desc-top"><img src="doc/logo/typeof.js_logo.png"/></a>
 </p>
 <p align="center">
+    <a href="https://github.com/richard-kng/typeof.js/releases"><img src="http://img.shields.io/github/release/richard-kng/typeof.js.svg"/></a>
+    <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
+    <a href="#license-"><img src="http://img.shields.io/:license-MIT-blue.svg"/></a>
+<br>
     <a href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
     <a href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master' alt='Coverage Status' /></a>
     <a href="https://codeclimate.com/github/richard-kng/typeof.js"><img src="https://codeclimate.com/github/richard-kng/typeof.js/badges/gpa.svg" /></a>
     <a href="https://david-dm.org/richard-kng/typeof.js"><img src="https://david-dm.org/richard-kng/typeof.js.svg"/></a>
     <a href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img 
 src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
-<br>
-    <a href="https://github.com/richard-kng/typeof.js/releases"><img src="http://img.shields.io/github/release/richard-kng/typeof.js.svg"/></a>
-    <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
-    <a href="#license-"><img src="http://img.shields.io/:license-MIT-blue.svg"/></a>
 </p>
 <br>
 <p align="center">
