@@ -1,5 +1,7 @@
 "use strict";
 
+var shell = require("./node_modules/shelljs");
+
 module.exports = function(grunt) {
     var src = "typeof",
         distributionDir = "dist",
@@ -46,7 +48,7 @@ module.exports = function(grunt) {
                 distributionDir
             ],
             cvg: [
-                distributionDir
+                coverageDir
             ],
             doc: [
                 "doc/*",
@@ -189,7 +191,7 @@ module.exports = function(grunt) {
                 // When true, grunt-coveralls will only print a warning rather than
                 // an error, to prevent CI builds from failing unnecessarily (e.g. if
                 // coveralls.io is down). Optional, defaults to false.
-                force: false
+                force: true
             },
             main: {
                 src: coverageDir + "/lcov.info"
@@ -272,4 +274,6 @@ module.exports = function(grunt) {
     grunt.registerTask(task.doc.name, task.doc.list);
 
     grunt.registerTask(task.ci.name, task.ci.list);
+
+    shell.echo("---> hi <---");
 };

@@ -1,7 +1,7 @@
 {
   "name": "typeof.js",
   "description": "Fix of \"typeof\" inconsistencies in JavaScript. AMD (Require.js) and browser compatible.",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "homepage": "https://github.com/richard-kng/typeof.js",
   "author": "Richard KnG <richrdkng@gmail.com> (https://github.com/richard-kng)",
   "repository": {
@@ -14,7 +14,7 @@
   "license": "MIT",
   "main": "typeof.js",
   "scripts": {
-    "build": "npm install && grunt build",
+    "build": "npm install",
     "test": "grunt ci --verbose"
   },
   "dependencies": {},
@@ -34,7 +34,9 @@
     "grunt-env": "~0.4.2",
     "grunt-coveralls": "~1.0.0",
     "grunt-jsdoc": "~0.5.7",
-    "jsdoc": "~3.3.0-alpha10"
+    "jsdoc": "~3.3.0-alpha10",
+    "shelljs": "~0.3.0",
+    "tape": "~3.0.3"
   },
   "keywords": [
     "typeof.js",
@@ -46,5 +48,15 @@
   ],
   "directories": {
     "test": "test"
-  }
+  },
+  "testling" : {
+    "files" : "test/testling/*.testling.js",
+    "browsers" : {
+        "ie" : [ 6, 7, 8, 9, 10 ],
+        "ff" : [ 3.5, 10, 15.0, 16.0, 17.0 ],
+        "chrome" : [ 10, 20, 21, 22, 23 ],
+        "safari" : [ 5.1 ],
+        "opera" : [ 10, 11, 12 ]
+    }
+}
 }
