@@ -10,7 +10,7 @@
 src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
 <br>
     <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
-    <a href="#license-"><img src="http://img.shields.io/:license-MIT-1ed476.svg"/></a>
+    <a href="#license-"><img src="http://img.shields.io/:license-MIT-20e580.svg"/></a>
 </p>
 <br>
 <p align="center">
