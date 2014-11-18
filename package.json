@@ -1,7 +1,7 @@
 {
   "name": "typeof.js",
   "description": "Fix of \"typeof\" inconsistencies in JavaScript. AMD (Require.js) and browser compatible.",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "homepage": "https://github.com/richard-kng/typeof.js",
   "author": "Richard KnG <richrdkng@gmail.com> (https://github.com/richard-kng)",
   "repository": {

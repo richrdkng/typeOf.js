@@ -8,8 +8,5 @@ before_script:
   - npm install -g grunt-cli
 
 after_script:
-  - cat cvg/lcov.info | codeclimate
-
-addons:
-  code_climate:
-    repo_token: daff8f11712aab05a1e7188b9b0f9b01491d3410dc6bec403e785b97d895f492
+  - npm install -g codeclimate-test-reporter
+  - CODECLIMATE_REPO_TOKEN=daff8f11712aab05a1e7188b9b0f9b01491d3410dc6bec403e785b97d895f492 codeclimate < cvg/lcov.info
