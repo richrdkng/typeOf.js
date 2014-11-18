@@ -18,7 +18,7 @@
     "use strict";
 
     /**
-     * Returns the proper type of passed value
+     * Returns the proper type of the passed value
      * @name typeOf
      * @param {} value - One value of any type
      * @returns {string}
