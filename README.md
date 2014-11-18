@@ -12,7 +12,6 @@ src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
     <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
     <a href="#license-"><img src="http://img.shields.io/:license-mit-blue.svg"/></a>
 </p>
-___
 __Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) / [problems](http://javascript.crockford.com/remedial.html) in JavaScript.__<br/>
 __AMD / CommonJS / Browser compatible.__
 
