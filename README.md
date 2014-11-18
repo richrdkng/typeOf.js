@@ -25,19 +25,6 @@ Index
 -----
 <table>
     <tr>
-        <td colspan="3" align="center">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <b><a>Index</a></b>
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
-        </td>
-    </tr>
-    <tr>
         <td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
     </tr>
@@ -53,39 +40,6 @@ Index
         <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
     </tr>
 </table>
-
-
-<table>
-    <tr><td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td></tr></tr>
-    <tr><td>&#9656; &nbsp;&nbsp;<a href="#api--usage-">API & Usage</a></td></tr>
-    <tr><td>&#9656; &nbsp;&nbsp;<a href="#suggestions-requests--ideas-">Suggestions, Requests & Ideas</a></td></tr>
-    <tr><td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td></tr>
-    <tr><td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td></tr>
-    <tr><td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td></tr>
-    <tr><td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td></tr>
-</table>
-<table>
-    <tr>
-        <td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#api--usage-">API & Usage</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#suggestions-requests--ideas-">Suggestions, Requests & Ideas</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
-    </tr>
-    <tr>
-        <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td>
-    </tr>
-</table>
-
- * [Getting Started](#getting-started-)
- * [API & Usage](#api--usage-)
- * [Suggestions, Requests & Ideas](#suggestions-requests--ideas-)
- * [Issues / Bugs](#issues--bugs-)
- * [Support](#support-)
- * [Contribution & A Note](#contribution--a-note-)
- * [License](#license-)
-
 Getting Started [&#9652;](#index)
 ---------------
 
