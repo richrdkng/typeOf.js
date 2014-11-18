@@ -16,7 +16,6 @@ src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
 <b>Fix for "typeof" operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">inconsistencies</a> / <a href="http://javascript.crockford.com/remedial.html">problems</a> in JavaScript.<br/>
 AMD / CommonJS / browser compatible.</b>
 <br>
-<br>
 To support this project, you can at <a href="http://richard-kng.github.io/support/">the support page</a> by supporting the developer.
 </p>
 Index
