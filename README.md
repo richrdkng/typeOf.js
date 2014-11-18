@@ -60,7 +60,7 @@ __Download directly__ __(Do not link this directly on your site, the file is sen
 
 - [typeof.js](https://raw.githubusercontent.com/richard-kng/typeof.js/master/lib/typeof.js)
 
-API & Usage [&#9652;](#index)
+API & Usage [&#9652;](#index-)
 -----------
 
 Suggestions, Requests & Ideas [&#9652;](#index-)
@@ -73,7 +73,7 @@ Issues / Bugs [&#9652;](#index-)
 -------------
 In case of any occurring issues and/or bugs, post on the project's [issues](https://github.com/richard-kng/typeof.js/issues) page with appropriate label(s).
 
-Support [&#9652;](#index)
+Support [&#9652;](#index-)
 -------
 If you find this tool useful, you can support this project by supporting the developer [here](http://richard-kng.github.io/support/).
 
