@@ -29,7 +29,6 @@ Index
             <img src="http://placehold.it/75x1/ffffff/ffffff">
             <img src="http://placehold.it/75x1/ffffff/ffffff">
             <img src="http://placehold.it/75x1/ffffff/ffffff">
-            <img src="http://placehold.it/75x1/ffffff/ffffff">
             <b><a>Index</a></b>
             <img src="http://placehold.it/75x1/ffffff/ffffff">
             <img src="http://placehold.it/75x1/ffffff/ffffff">
