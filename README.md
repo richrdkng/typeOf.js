@@ -24,9 +24,17 @@ To support this project, you can at <a href="http://richard-kng.github.io/suppor
 Index
 -----
 <table>
-    <tr><td colspan="3"><img src="http://placehold.it/800x1"></td></tr>
     <tr>
-        <td colspan="3" align="center"><b>Index</b></td>
+        <td colspan="3" align="center">
+            <img src="http://placehold.it/100x1/ffffff/ffffff">
+            <img src="http://placehold.it/100x1/ffffff/ffffff">
+            <img src="http://placehold.it/100x1/ffffff/ffffff">
+            <b>Index</b>
+            <img src="http://placehold.it/100x1/ffffff/ffffff">
+            <img src="http://placehold.it/100x1/ffffff/ffffff">
+            <img src="http://placehold.it/100x1/ffffff/ffffff">
+            <img src="http://placehold.it/100x1/ffffff/ffffff">
+        </td>
     </tr>
     <tr>
         <td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td>
