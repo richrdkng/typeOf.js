@@ -1,16 +1,25 @@
-<a id="project-desc-top">[![typeof.js logo](doc/logo/typeof.js_logo.png)](#project-desc-top)</a>
-
-[![Build Status](https://travis-ci.org/richard-kng/typeof.js.svg?branch=master)](https://travis-ci.org/richard-kng/typeof.js)
-[![Coverage Status](https://img.shields.io/coveralls/richard-kng/typeof.js.svg)](https://coveralls.io/r/richard-kng/typeof.js)
-[![Dependency Status](https://david-dm.org/richard-kng/typeof.js.svg)](https://david-dm.org/richard-kng/typeof.js)
-[![devDependency Status](https://david-dm.org/richard-kng/typeof.js/dev-status.svg)](https://david-dm.org/richard-kng/typeof.js#info=devDependencies)
-[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
-[![License](http://img.shields.io/:license-mit-brightgreen.svg)](#license-)
-___
-__Fix for "typeof" operator [inconsistencies](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof) / [problems](http://javascript.crockford.com/remedial.html) in JavaScript.__<br/>
-__AMD / CommonJS / Browser compatible.__
-
-To support this project, you can at [the support page](http://richard-kng.github.io/support/) by supporting the developer.
+<p align="center">
+    <a id="project-desc-top" href="#project-desc-top"><img src="doc/logo/typeof.js_logo.png"/></a>
+</p>
+<p align="center">
+    <a href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
+    <a href="https://coveralls.io/r/richard-kng/typeof.js"><img src="https://img.shields.io/coveralls/richard-kng/typeof.js.svg"/></a>
+    <a href="https://david-dm.org/richard-kng/typeof.js"><img src="https://david-dm.org/richard-kng/typeof.js.svg"/></a>
+    <a href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img 
+src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
+</p>
+<p align="center">    
+    <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
+    <a href="#license-"><img src="http://img.shields.io/:license-mit-blue.svg"/></a>
+</p>
+<br>
+<p align="center">
+<b>Fix for "typeof" operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">inconsistencies</a> / <a href="http://javascript.crockford.com/remedial.html">problems</a> in JavaScript.<br/>
+AMD / CommonJS / Browser compatible.</b>
+<br>
+<br>
+To support this project, you can at <a href="http://richard-kng.github.io/support/">the support page</a> by supporting the developer.
+</p>
 Index
 -----
  * [Getting Started](#getting-started-)
@@ -61,7 +70,7 @@ In the spirit of open source software development, this project is always open t
 
 License [&#9652;](#index)
 -------
-Copyright (c) 2014 "Richard KnG" Richárd Szakács. __Licensed under the MIT license__.
+&copy; 2014 "Richard KnG" Richárd Szakács. __Licensed under the MIT license__.
 
 The license mentioned above applies to all parts of this software except as
 documented below
