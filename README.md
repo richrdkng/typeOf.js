@@ -13,7 +13,7 @@
     <a href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img 
 src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
 </p>
-<br>
+<hr>
 <p align="center">
 <b>Fix for "typeof" operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">inconsistencies</a> / <a href="http://javascript.crockford.com/remedial.html">problems</a> in JavaScript.<br/>
 AMD / CommonJS / browser compatible.</b>
