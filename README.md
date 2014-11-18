@@ -26,14 +26,16 @@ Index
 <table>
     <tr>
         <td colspan="3" align="center">
-            <img src="http://placehold.it/100x1/ffffff/ffffff">
-            <img src="http://placehold.it/100x1/ffffff/ffffff">
-            <img src="http://placehold.it/100x1/ffffff/ffffff">
-            <b>Index</b>
-            <img src="http://placehold.it/100x1/ffffff/ffffff">
-            <img src="http://placehold.it/100x1/ffffff/ffffff">
-            <img src="http://placehold.it/100x1/ffffff/ffffff">
-            <img src="http://placehold.it/100x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <b><a>Index</a></b>
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
+            <img src="http://placehold.it/75x1/ffffff/ffffff">
         </td>
     </tr>
     <tr>
