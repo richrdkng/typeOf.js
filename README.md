@@ -11,6 +11,7 @@ src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
     <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
     <a href="#license-"><img src="http://img.shields.io/:license-mit-green.svg"/></a>
 </p>
+<br>
 <p align="center">
 <b>Fix for "typeof" operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">inconsistencies</a> / <a href="http://javascript.crockford.com/remedial.html">problems</a> in JavaScript.<br/>
 AMD / CommonJS / browser compatible.</b>
