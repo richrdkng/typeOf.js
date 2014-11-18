@@ -23,6 +23,52 @@ To support this project, you can at <a href="http://richard-kng.github.io/suppor
 </p>
 Index
 -----
+<table>
+    <tr><td colspan="3"><img src="http://placehold.it/800x1"></td></tr>
+    <tr>
+        <td colspan="3" align="center"><b>Index</b></td>
+    </tr>
+    <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
+    </tr>
+    <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#api--usage-">API & Usage</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td>
+    </tr>
+    <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#suggestions-requests--ideas-">Suggestions, Requests & Ideas</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td>
+    </tr>
+    <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
+    </tr>
+</table>
+
+
+<table>
+    <tr><td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td></tr></tr>
+    <tr><td>&#9656; &nbsp;&nbsp;<a href="#api--usage-">API & Usage</a></td></tr>
+    <tr><td>&#9656; &nbsp;&nbsp;<a href="#suggestions-requests--ideas-">Suggestions, Requests & Ideas</a></td></tr>
+    <tr><td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td></tr>
+    <tr><td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td></tr>
+    <tr><td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td></tr>
+    <tr><td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td></tr>
+</table>
+<table>
+    <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#api--usage-">API & Usage</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#suggestions-requests--ideas-">Suggestions, Requests & Ideas</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
+    </tr>
+    <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td>
+    </tr>
+</table>
+
  * [Getting Started](#getting-started-)
  * [API & Usage](#api--usage-)
  * [Suggestions, Requests & Ideas](#suggestions-requests--ideas-)
