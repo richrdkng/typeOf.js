@@ -37,12 +37,22 @@ module.exports = function(grunt) {
             },
             src: ["src/" + src + ".js"]
         },
-        clean: [
-            "./" + src + ".js",
-            "./" + src + ".min.js",
-            distributionDir,
-            coverageDir
-        ],
+        clean: {
+            root: [
+                "./" + src + ".js",
+                "./" + src + ".min.js"
+            ],
+            dist: [
+                distributionDir
+            ],
+            cvg: [
+                distributionDir
+            ],
+            doc: [
+                "doc/*",
+                "!doc/logo/**"
+            ]
+        },
         uglify: {
             dist: {
                 files: uglifyjs_src
@@ -193,8 +203,8 @@ module.exports = function(grunt) {
                 JSDOC_GITHUBIFY_BRANCH: "master"
             }
         },
-        jsdoc : {
-            dist : {
+        jsdoc: {
+            dist: {
                 src: ["src/**/*.js"],
                 options: {
                     destination: 'doc'
@@ -209,14 +219,14 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-banner');
 
-    // For tests & coverage
+    // Tests & coverage
     grunt.loadNpmTasks('grunt-jasmine-node');
     grunt.loadNpmTasks('grunt-contrib-jasmine');
     grunt.loadNpmTasks('grunt-coveralls');
 
     // Documentation
     grunt.loadNpmTasks('grunt-env');
-    //grunt.loadNpmTasks('grunt-jsdoc');
+    grunt.loadNpmTasks('grunt-jsdoc');
 
     var task = {};
         task["build"] = {
@@ -259,5 +269,7 @@ module.exports = function(grunt) {
     grunt.registerTask(task.build.name, task.build.list);
     grunt.registerTask(task.test.name, task.test.list);
     grunt.registerTask(task.coverage.name, task.coverage.list);
+    grunt.registerTask(task.doc.name, task.doc.list);
+
     grunt.registerTask(task.ci.name, task.ci.list);
 };
