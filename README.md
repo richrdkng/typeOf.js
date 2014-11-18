@@ -3,7 +3,8 @@
 </p>
 <p align="center">
     <a href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
-    <a href="https://coveralls.io/r/richard-kng/typeof.js"><img src="https://img.shields.io/coveralls/richard-kng/typeof.js.svg"/></a>
+    <a href="https://codeclimate.com/github/richard-kng/typeof.js"><img src="https://codeclimate.com/github/richard-kng/typeof.js/badges/coverage.svg" /></a>    
+    <a href="https://codeclimate.com/github/richard-kng/typeof.js"><img src="https://codeclimate.com/github/richard-kng/typeof.js/badges/gpa.svg" /></a>
     <a href="https://david-dm.org/richard-kng/typeof.js"><img src="https://david-dm.org/richard-kng/typeof.js.svg"/></a>
     <a href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img 
 src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
@@ -15,6 +16,7 @@ src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
 <p align="center">
 <b>Fix for "typeof" operator <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof">inconsistencies</a> / <a href="http://javascript.crockford.com/remedial.html">problems</a> in JavaScript.<br/>
 AMD / CommonJS / browser compatible.</b>
+<br>
 <br>
 To support this project, you can at <a href="http://richard-kng.github.io/support/">the support page</a> by supporting the developer.
 </p>
