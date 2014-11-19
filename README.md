@@ -9,9 +9,7 @@
     <a href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
     <a href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master' alt='Coverage Status' /></a>
     <a href="https://codeclimate.com/github/richard-kng/typeof.js"><img src="https://codeclimate.com/github/richard-kng/typeof.js/badges/gpa.svg" /></a>
-    <a href="https://david-dm.org/richard-kng/typeof.js"><img src="https://david-dm.org/richard-kng/typeof.js.svg"/></a>
-    <a href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img 
-src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
+    <a href='https://www.versioneye.com/user/projects/546c687681010628c20001f9/'><img src='https://www.versioneye.com/user/projects/546c687681010628c20001f9//badge.svg?style=flat' alt="Dependency Status" /></a>
 </p>
 <hr>
 <a id="project-description" href="#project-description"></a>
