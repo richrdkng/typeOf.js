@@ -1,14 +1,13 @@
 "use strict";
 
-var shell = require("./node_modules/shelljs");
-
 module.exports = function(grunt) {
     var src = "typeof",
+        tempCompressDir = ".grunt/temp-compress",
         distributionDir = "dist",
-        coverageDir = "cvg";
+        coverageDir = "cvrg";
 
     var licenseMainLine
-            = src + " <%= pkg.version %> Copyright (c) 2014 \"Richard KnG\" Richárd Szakács",
+            = src + " <%= pkg.version %> Copyright (c) 2014 \"Richard KnG\" (Richárd Szakács)",
         licenseItselfLine
             = "Licensed under the MIT license.",
         licenseForDetailsLine
@@ -52,7 +51,11 @@ module.exports = function(grunt) {
             ],
             doc: [
                 "doc/*",
-                "!doc/logo/**"
+                "!doc/logo/**",
+                "!doc/template/**"
+            ],
+            compress: [
+                tempCompressDir
             ]
         },
         uglify: {
@@ -68,6 +71,20 @@ module.exports = function(grunt) {
             to_root: {
                 src: "src/" + src + ".js",
                 dest: "./" + src + ".js"
+            },
+            to_compress: {
+                files: [
+                    // Copy source files (.js and .min.js)
+                    {   expand: true,
+                        cwd: distributionDir + "/",
+                        src: ["**"],
+                        dest: tempCompressDir + "/"},
+                    // Copy documentation and the logo
+                    {   expand: true,
+                        cwd: "doc/",
+                        src: ["scripts/**", "styles/**", "logo/typeof.js_logo.png", "*.*"],
+                        dest: tempCompressDir + "/doc/"}
+                ]
             }
         },
         usebanner: {
@@ -174,10 +191,10 @@ module.exports = function(grunt) {
                             }
                         ],
                         thresholds: {
-                            lines: 75,
-                            statements: 75,
-                            branches: 75,
-                            functions: 90
+                            statements: 100,
+                            branches: 100,
+                            functions: 100,
+                            lines: 100
                         }
                     },
                     vendor: [
@@ -199,18 +216,36 @@ module.exports = function(grunt) {
         },
 
         // Documentation
-        env: {
-            doc: {
-                JSDOC_GITHUBIFY_REMOTE: "<%= pkg.repository.url %>",
-                JSDOC_GITHUBIFY_BRANCH: "master"
-            }
-        },
         jsdoc: {
             dist: {
                 src: ["src/**/*.js"],
                 options: {
-                    destination: 'doc'
+                    destination: "doc",
+                    template: "doc/template"
                 }
+            }
+        },
+        "gh-pages": {
+            options: {
+                base: 'dist'
+            },
+            src: ['**']
+        },
+
+        // Distribution compress
+        compress: {
+            main: {
+                options: {
+                    level: 9,
+                    mode: "zip",
+                    archive: distributionDir + "/" + src + ".js.zip"
+                },
+                files: [
+                    {   expand: true,
+                        cwd: tempCompressDir + "/",
+                        src: ["**"],
+                        dest: "" }
+                ]
             }
         }
     });
@@ -220,6 +255,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-contrib-clean');
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-banner');
+    grunt.loadNpmTasks('grunt-contrib-compress');
 
     // Tests & coverage
     grunt.loadNpmTasks('grunt-jasmine-node');
@@ -227,13 +263,18 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-coveralls');
 
     // Documentation
-    grunt.loadNpmTasks('grunt-env');
     grunt.loadNpmTasks('grunt-jsdoc');
+    grunt.loadNpmTasks('grunt-gh-pages');
 
     var task = {};
         task["build"] = {
             name: "build",
-            list: ["jshint", "clean", "uglify", "copy", "usebanner"]
+            list: ["jshint",
+                   "clean",
+                   "uglify",
+                   "copy:to_dist",
+                   "copy:to_root",
+                   "usebanner"]
         };
         task["test"] = {
             name: "test",
@@ -250,6 +291,27 @@ module.exports = function(grunt) {
                 ["jasmine:coverage", "coveralls"]
             )
         };
+        task["pack"] = {
+            name: "pack",
+            // add build and doc generation too
+            list: ["clean:compress",
+                   "copy:to_compress",
+                   "compress",
+                   "clean:compress"]
+        };
+        task["doc"] = {
+            name: "doc",
+            list: ["clean:doc", "jsdoc"]
+        };
+        task["distribute"] = {
+            name: "distribute",
+            list: [].concat(
+                task.build.list,
+                task.test.list,
+                task.doc.list,
+                task.pack.list
+            )
+        };
         task["ci"] = {
             name: "ci",
             list: [].concat(
@@ -258,22 +320,19 @@ module.exports = function(grunt) {
                 task.coverage.list
             )
         };
-        task["doc"] = {
-            name: "doc",
-            list: ["env:doc", "jsdoc"]
-        };
         task["default"] = {
             name: "default",
             list: []
         };
 
     grunt.registerTask(task.default.name, task.default.list);
+
     grunt.registerTask(task.build.name, task.build.list);
     grunt.registerTask(task.test.name, task.test.list);
     grunt.registerTask(task.coverage.name, task.coverage.list);
-    grunt.registerTask(task.doc.name, task.doc.list);
-
     grunt.registerTask(task.ci.name, task.ci.list);
 
-    shell.echo("---> hi <---");
+    grunt.registerTask(task.doc.name, task.doc.list);
+    grunt.registerTask(task.pack.name, task.pack.list);
+    grunt.registerTask(task.distribute.name, task.distribute.list);
 };

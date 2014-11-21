@@ -1,20 +1,25 @@
 # WebStorm directory
 .idea
 
-# Dependency directory
+# Environment variables
+environment_variables.bat
+
+# Dependency directories
 node_modules
+bower_components
 
 # Coverage reports
 cvg
 
-# Documentation, logos and icons
+# Logo source file
 doc/logo/*.ai
 
 # Project notes
 PROJECT_NOTES
+PROJECT.js
 
 # NPM Debug log
 npm-debug.log
 
-# Grunt leftover
+# Grunt leftovers
 .grunt

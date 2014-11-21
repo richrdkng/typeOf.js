@@ -123,6 +123,7 @@
             }
         });
 
+        // Primitives
         it('check for typeOf(Boolean()|Number()|String()) -> have to return "boolean"', function () {
             expect(typeOf(Boolean(true))).toEqual("boolean");
             expect(typeOf(Boolean(false))).toEqual("boolean");
@@ -152,6 +153,39 @@
                 expect(typeOf_min(String())).toEqual("string");
                 expect(typeOf_min(String(0))).toEqual("string");
                 expect(typeOf_min(String(""))).toEqual("string");
+            }
+        });
+
+        // Primitives wrapped with objects
+        it('check for typeOf(new Boolean()|new Number()|new String()) -> have to return "boolean"', function () {
+            expect(typeOf(new Boolean(true))).toEqual("object");
+            expect(typeOf(new Boolean(false))).toEqual("object");
+
+            expect(typeOf(new Number(-1))).toEqual("object");
+            expect(typeOf(new Number(0))).toEqual("object");
+            expect(typeOf(new Number(1))).toEqual("object");
+            expect(typeOf(new Number(-Infinity))).toEqual("object");
+            expect(typeOf(new Number(Infinity))).toEqual("object");
+            expect(typeOf(new Number(NaN))).toEqual("object");
+
+            expect(typeOf(new String())).toEqual("object");
+            expect(typeOf(new String(0))).toEqual("object");
+            expect(typeOf(new String(""))).toEqual("object");
+
+            if(hasMinimized) {
+                expect(typeOf_min(new Boolean(true))).toEqual("object");
+                expect(typeOf_min(new Boolean(false))).toEqual("object");
+
+                expect(typeOf_min(new Number(-1))).toEqual("object");
+                expect(typeOf_min(new Number(0))).toEqual("object");
+                expect(typeOf_min(new Number(1))).toEqual("object");
+                expect(typeOf_min(new Number(-Infinity))).toEqual("object");
+                expect(typeOf_min(new Number(Infinity))).toEqual("object");
+                expect(typeOf_min(new Number(NaN))).toEqual("object");
+
+                expect(typeOf_min(new String())).toEqual("object");
+                expect(typeOf_min(new String(0))).toEqual("object");
+                expect(typeOf_min(new String(""))).toEqual("object");
             }
         });
 

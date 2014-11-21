@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>typeof.js Browser Test</title>
+</head>
+<body>
+    <script src="../../node_modules/qulog/qulog.js"></script>
+    <script src="../../src/typeof.js"></script>
+    <script>
+        //Object.prototype.toString = function() { return "[object Object]"; };
+        //Function.prototype.call = function() { console.log(".call called"); };
+
+        var log = qulog;
+
+        //log(typeOf, this.typeof);
+        //log(typeOf([]));
+        //log(typeOf({}));
+        //log(typeOf(null));
+        log(typeOf(Boolean(true)));
+        log(typeOf(Number(42)));
+        log(typeOf(String("a string")));
+        log(typeOf(new RegExp()));
+
+        log(typeOf(new Boolean(true)));
+        log(typeOf(new Number(42)));
+        log(typeOf(new String("a string")));
+    </script>
+</body>
+</html>

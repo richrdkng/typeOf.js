@@ -10,4 +10,4 @@ before_script:
 
 after_script:
   - npm install -g codeclimate-test-reporter
-  - CODECLIMATE_REPO_TOKEN=daff8f11712aab05a1e7188b9b0f9b01491d3410dc6bec403e785b97d895f492 codeclimate < cvg/lcov.info
+  - CODECLIMATE_REPO_TOKEN=daff8f11712aab05a1e7188b9b0f9b01491d3410dc6bec403e785b97d895f492 codeclimate < cvrg/lcov.info

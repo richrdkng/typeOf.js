@@ -26,17 +26,15 @@
     "grunt-contrib-jshint": "~0.10.0",
     "grunt-contrib-jasmine": "~0.8.0",
     "grunt-contrib-uglify": "~0.6.0",
+    "grunt-contrib-compress": "~0.12.0",
     "grunt-jasmine-node": "~0.2.1",
     "grunt-template-jasmine-requirejs": "~0.2.0",
     "grunt-template-jasmine-istanbul": "~0.3.0",
-    "qulog": "~1.0.3",
-    "requirejs": "~2.1.15",
-    "grunt-env": "~0.4.2",
     "grunt-coveralls": "~1.0.0",
     "grunt-jsdoc": "~0.6.1",
-    "jsdoc": "~3.3.0-alpha10",
-    "shelljs": "~0.3.0",
-    "tape": "~3.0.3"
+    "grunt-gh-pages": "~0.9.1",
+    "qulog": "~1.0.3",
+    "requirejs": "~2.1.15"
   },
   "keywords": [
     "typeof.js",
@@ -48,15 +46,5 @@
   ],
   "directories": {
     "test": "test"
-  },
-  "testling" : {
-    "files" : "test/testling/*.testling.js",
-    "browsers" : {
-        "ie" : [ 6, 7, 8, 9, 10 ],
-        "ff" : [ 3.5, 10, 15.0, 16.0, 17.0 ],
-        "chrome" : [ 10, 20, 21, 22, 23 ],
-        "safari" : [ 5.1 ],
-        "opera" : [ 10, 11, 12 ]
-    }
-}
+  }
 }
