@@ -9,7 +9,7 @@ node_modules
 bower_components
 
 # Coverage reports
-cvg
+cvrg
 
 # Logo source file
 doc/logo/*.ai
