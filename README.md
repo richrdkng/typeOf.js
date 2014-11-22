@@ -1,5 +1,5 @@
 <p align="center">
-    <a id="project-top" href="#project-top"><img src="doc/logo/typeof.js_logo.png"/></a>
+    <a title="typeof.js" id="project-top" href="#project-top"><img src="doc/logo/typeof.js_logo.png"/></a>
 </p>
 <p align="center">
     <a href="https://github.com/richard-kng/typeof.js/releases"><img src="http://img.shields.io/github/release/richard-kng/typeof.js.svg"/></a>
@@ -7,9 +7,7 @@
     <a href="#license-"><img src="http://img.shields.io/:license-MIT-blue.svg"/></a>
 <br>
     <a href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
-    <a href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master' /></a>
-    <a href="https://codeclimate.com/github/richard-kng/typeof.js"><img src="https://codeclimate.com/github/richard-kng/typeof.js/badges/gpa.svg" /></a>
-    <a href='https://www.versioneye.com/user/projects/546c687681010628c20001f9/'><img src='https://www.versioneye.com/user/projects/546c687681010628c20001f9//badge.svg?style=flat' /></a>
+    <a href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master'/></a>
 </p>
 <hr>
 <a id="project-description" href="#project-description"></a>

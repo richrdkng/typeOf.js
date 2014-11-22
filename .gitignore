@@ -1,8 +1,8 @@
+# Grunt leftovers
+.grunt
+
 # WebStorm directory
 .idea
-
-# Environment variables
-environment_variables.bat
 
 # Dependency directories
 node_modules
@@ -14,12 +14,12 @@ cvrg
 # Logo source file
 doc/logo/*.ai
 
+# Environment variables
+environment_variables.bat
+environment_variables.sh
+
 # Project notes
 PROJECT_NOTES
-PROJECT.js
 
 # NPM Debug log
 npm-debug.log
-
-# Grunt leftovers
-.grunt

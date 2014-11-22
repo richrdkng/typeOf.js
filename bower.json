@@ -1,36 +1,36 @@
 {
-  "name": "typeof.js",
-  "description": "Fix of \"typeof\" inconsistencies in JavaScript. AMD (Require.js) and browser compatible.",
-  "homepage": "https://github.com/richard-kng/typeof.js",
-  "repository": "git://github.com/richard-kng/typeof.js.git",
-  "keywords": [
-    "typeof.js",
-    "javascript",
-    "js",
-    "production",
-    "utility",
-    "tool"
-  ],
-  "authors": [
-    "Richard KnG <richrdkng@gmail.com> (https://github.com/richard-kng)"
-  ],
-  "main": "typeof.js",
-  "ignore": [
-    "cvg",
-    "dist",
-    "node_modules",
-    "src",
-    "test",
-    "*.yml",
-    ".gitignore",
-    ".gitattributes",
-    ".jshintrc",
-    "Gruntfile*",
-    "*.json"
-  ],
-  "dependencies": {},
-  "devDependencies": {},
-  "license": [
-    "MIT"
-  ]
+    "name": "typeof.js",
+    "description": "Fix of \"typeof\" inconsistencies in JavaScript. AMD (Require.js) and browser compatible.",
+    "homepage": "https://github.com/richard-kng/typeof.js",
+    "repository": "git://github.com/richard-kng/typeof.js.git",
+    "keywords": [
+        "typeof.js",
+        "javascript",
+        "js",
+        "production",
+        "utility",
+        "tool"
+    ],
+    "authors": [
+        "Richard KnG <richrdkng@gmail.com> (https://github.com/richard-kng)"
+    ],
+    "main": "typeof.js",
+    "ignore": [
+        "cvg",
+        "dist",
+        "node_modules",
+        "src",
+        "test",
+        "*.yml",
+        ".gitignore",
+        ".gitattributes",
+        ".jshintrc",
+        "Gruntfile*",
+        "*.json"
+    ],
+    "dependencies": {},
+    "devDependencies": {},
+    "license": [
+        "MIT"
+    ]
 }
