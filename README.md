@@ -55,13 +55,16 @@ __Bower__ ([What is Bower?](http://bower.io/))
 
     bower install typeof.js
 
-__Download directly__ __(Do not include the scripts directly from GitHub. Files are sent as plain/text and can cause loading problems.)__
+__Download directly__
+(<b>Do not include the scripts directly from GitHub.</b> Files are sent as plain/text and can cause loading problems.)
+(Depending on platforms, you may have to <b>right click</b> and choose <b>save link as</b> to save the files below.)
+
 <p align="center">
-    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js" download target="_blank"><img src="http://img.shields.io/badge/download-DEVELOPMENT-brightgreen.svg"/></a>
+    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js" download><img src="http://img.shields.io/badge/download-DEVELOPMENT-brightgreen.svg"/></a>
     &nbsp;&nbsp;
-    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.min.js" download target="_blank"><img src="http://img.shields.io/badge/download-PRODUCTION-red.svg"/></a>
+    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.min.js" download><img src="http://img.shields.io/badge/download-PRODUCTION-red.svg"/></a>
     &nbsp;&nbsp;
-    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js.zip" download target="_blank"><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-blue.svg"/></a>
+    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js.zip" download><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-blue.svg"/></a>
 </p>
 
 API & Usage [&#9652;](#index-)
@@ -89,12 +92,11 @@ In the spirit of open source software development, this project is always open t
 
 License [&#9652;](#index-)
 -------
-&copy; 2014 "Richard KnG" (Richárd Szakács). <a href="LICENSE-MIT.txt"><b>Licensed under the MIT license</b></a>.
+&copy; 2014 "Richard KnG" (Richárd Szakács) <a href="LICENSE-MIT.txt"><b>Licensed under the MIT license</b></a>.
 
 The license mentioned above applies to all parts of this software except as
 documented below
 
-All files located in the <b>node_modules</b>, <b>external directories</b> and <b>other directories</b> are
-externally maintained libraries used by this software which have their
-own licenses. We recommend you read them, as their terms may differ from
-the terms above.
+All files located in the <b>node_modules</b>, <b>external directories</b> and <b>other directories</b>
+are may or may not externally maintained libraries used by this software which have their
+own licenses. <b>It is recommend to read them, as their terms may differ from the terms above.</b>
