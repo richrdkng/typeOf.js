@@ -55,14 +55,17 @@ __Bower__ ([What is Bower?](http://bower.io/))
 
     bower install typeof.js
 
-__Download directly__ <br>
-(<b>Do not include the scripts directly from GitHub.</b> Files are sent as plain/text and can cause loading problems.) <br>
-(Depending on platforms, you may have to <b>right click</b> and choose <b>save link as</b> to save the files below.)
+__Download directly__
+<br><ul>
+    <li><b>Do not include the scripts directly from GitHub</b> as files are sent as plain/text and can cause loading problems</li>
+    <li><b>Save files</b> rather than link/include directly from GitHub or use a <b>CDN</b></li>
+    <li>Depending on platforms, you may have to <b>right click</b> and choose <b>save link as</b> to save the files below</li>
+</ul>
 <p align="center">
     <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js" download><img src="http://img.shields.io/badge/download-DEVELOPMENT-brightgreen.svg"/></a>
-    &nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
     <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.min.js" download><img src="http://img.shields.io/badge/download-PRODUCTION-red.svg"/></a>
-    &nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;
     <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js.zip" download><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-blue.svg"/></a>
 </p>
 
