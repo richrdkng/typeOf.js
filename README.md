@@ -9,8 +9,8 @@
     <a title="Travis CI" href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
     <a title="Coveralls" href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master'/></a>
     <a title="David" href="https://david-dm.org/richard-kng/typeof.js"><img src="https://david-dm.org/richard-kng/typeof.js.svg"/></a>
-    <a title="David" href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
     <a title="David" href="https://david-dm.org/richard-kng/typeof.js#info=peerDependencies"><img src="https://david-dm.org/richard-kng/typeof.js/peer-status.svg"/></a>
+    <a title="David" href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>    
 </p>
 <hr>
 <a id="project-description" href="#project-description"></a>
@@ -58,6 +58,11 @@ __Bower__ ([What is Bower?](http://bower.io/))
 __Download directly__ __(Do not link this directly on your site, the file is sent with a plain/text header and can cause loading problems)__
 
 - [typeof.js](https://raw.githubusercontent.com/richard-kng/typeof.js/master/lib/typeof.js)
+<p align="center">
+    <a href="dist/typeof.js"><img src="http://img.shields.io/badge/download-DEVELOPMENT-brightgreen.svg"/></a>
+    <a href="dist/typeof.min.js"><img src="http://img.shields.io/badge/download-PRODUCTION-orange.svg"/></a>
+    <a href="dist/typeof.js.zip"><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-red.svg"/></a>
+</p>
 
 API & Usage [&#9652;](#index-)
 -----------
