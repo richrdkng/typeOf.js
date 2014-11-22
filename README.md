@@ -2,12 +2,12 @@
     <a title="typeof.js" id="project-top" href="#project-top"><img src="doc/logo/typeof.js_logo.png"/></a>
 </p>
 <p align="center">
-    <a href="https://github.com/richard-kng/typeof.js/releases"><img src="http://img.shields.io/github/release/richard-kng/typeof.js.svg"/></a>
-    <a href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>
-    <a href="#license-"><img src="http://img.shields.io/:license-MIT-blue.svg"/></a>
+    <a title="Latest Release" href="https://github.com/richard-kng/typeof.js/releases"><img src="http://img.shields.io/github/release/richard-kng/typeof.js.svg"/></a>
+    <a title="Project Related Chat" href="https://gitter.im/richard-kng/typeof.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge"><img src="https://badges.gitter.im/Join Chat.svg"/></a>    
+    <a title="Link to License" href="#license-"><img src="http://img.shields.io/:license-MIT-blue.svg"/></a>
 <br>
-    <a href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
-    <a href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master'/></a>
+    <a title="Travis CI" href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
+    <a title="Coveralls" href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master'/></a>
 </p>
 <hr>
 <a id="project-description" href="#project-description"></a>
