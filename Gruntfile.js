@@ -227,9 +227,23 @@ module.exports = function(grunt) {
         },
         "gh-pages": {
             options: {
-                base: 'dist'
+                base: "doc",
+                //branch: 'gh-pages',
+                //repo: 'https://Richard-KnG@github.com/richard-kng/typeof.js.git',
+                repo: 'https://Richard-KnG@github.com/richard-kng/typeof.js/tree/gh-pages',
+                //repo: 'https://' + "fff731ec29ac3c4f6a73c0c35db332c7a5ccc505" + '@github.com/richard-kng/typeof.js.git'
+                //repo: 'https://github.com/richard-kng/typeof.js.git?access_token=fff731ec29ac3c4f6a73c0c35db332c7a5ccc505'
+                user: {
+                    name: 'richard-kng',
+                    email: 'richrdkng@gmail.com'
+                }
             },
-            src: ['**']
+            src: [
+                "*",
+                "logo/*.png",
+                "scripts/**",
+                "styles/**"
+            ]
         },
 
         // Distribution compress

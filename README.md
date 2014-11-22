@@ -76,7 +76,7 @@ Suggestions, Requests & Ideas [&#9652;](#index-)
 -----------------------------
 Post any occurring suggestions, useful ideas and requests to the project's issue page under the __suggestion/idea/request__ label by clicking [here](https://github.com/richard-kng/typeof.js/labels/suggestion/idea/request).
 
- - Constructive criticism is encouraged and welcomed by contacting the developer or using GitHub.
+ - Constructive criticism is encouraged and welcomed by using GitHub or contacting the developer.
 
 Issues / Bugs [&#9652;](#index-)
 -------------
