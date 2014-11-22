@@ -55,13 +55,13 @@ __Bower__ ([What is Bower?](http://bower.io/))
 
     bower install typeof.js
 
-__Download directly__ __(Do not link this directly on your site, the file is sent with a plain/text header and can cause loading problems)__
-
-- [typeof.js](https://raw.githubusercontent.com/richard-kng/typeof.js/master/lib/typeof.js)
+__Download directly__ __(Do not include the scripts directly from GitHub. Files are sent as plain/text and can cause loading problems.)__
 <p align="center">
-    <a href="dist/typeof.js"><img src="http://img.shields.io/badge/download-DEVELOPMENT-brightgreen.svg"/></a>
-    <a href="dist/typeof.min.js"><img src="http://img.shields.io/badge/download-PRODUCTION-orange.svg"/></a>
-    <a href="dist/typeof.js.zip"><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-red.svg"/></a>
+    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js" download><img src="http://img.shields.io/badge/download-DEVELOPMENT-brightgreen.svg"/></a>
+    &nbsp;
+    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.min.js" download><img src="http://img.shields.io/badge/download-PRODUCTION-red.svg"/></a>
+    &nbsp;
+    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js.zip" download><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-blue.svg"/></a>
 </p>
 
 API & Usage [&#9652;](#index-)
