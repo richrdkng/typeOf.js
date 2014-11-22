@@ -101,4 +101,4 @@ documented below
 
 All files located in the <b>node_modules</b>, <b>external directories</b> and <b>other directories</b>
 are may or may not externally maintained libraries used by this software which have their
-own licenses. <b>It is recommend to read them, as their terms may differ from the terms above.</b>
+own licenses.<br><b>It is recommend to read them, as their terms may differ from the terms above.</b>
