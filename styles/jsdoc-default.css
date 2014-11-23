@@ -10,6 +10,7 @@ body
     line-height: 130%;
     color: #000;
     background-color: #fff;
+    overflow-x: hidden;
 }
 
 a {
@@ -39,11 +40,6 @@ header
     margin-top: 1em;
 }
 
-#main {
-    float: left;
-    width: 100%;
-}
-
 section
 {
     display: block;
@@ -53,6 +49,29 @@ section
     border-bottom: 1px solid #ccc;
     margin-right: 240px;
 }
+
+#project-graphic {
+    position: fixed;
+    padding: 0;
+    margin: -9px 0 0 0;
+    width: 100%;
+    text-align: center;
+}
+    #project-logo {
+
+    }
+    #project-logo > img {
+        width: 125px;
+        margin: 10px 0;
+    }
+    #kng-logo {
+        float: right;
+        margin: 15px 25px 0 -100px;
+    }
+    #kng-logo > img {
+        width: 32px;
+        height: 32px;
+    }
 
 .variation {
     display: none;
@@ -65,12 +84,17 @@ section
     font-weight: lighter;
 }
 
-nav
-{
-    display: block;
+#main {
+    /*float: left;*/
+    margin: 0 0 0 230px;
+    padding: 75px 0 0 0;
+    width: 100%;
+}
+
+nav {
+    /*display: block;*/
     float: left;
-    margin-left: -230px;
-    margin-top: 28px;
+    margin: 50px 0 0 0;
     width: 220px;
     border-left: 1px solid #ccc;
     padding-left: 9px;
@@ -194,6 +218,7 @@ h6
 
 .name, .signature {
     font-family: Consolas, "Lucida Console", Monaco, monospace;
+    padding: 75px 0 0 0;
 }
 
 .details { margin-top: 14px; border-left: 2px solid #DDD; }
@@ -233,7 +258,7 @@ h6
 .prettyprint code
 {
     font-family: Consolas, 'Lucida Console', Monaco, monospace;
-    font-size: 100%;
+    font-size: 14px;
     line-height: 18px;
     display: block;
     padding: 4px 12px;
