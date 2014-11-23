@@ -63,10 +63,10 @@ __Download directly__
 </ul>
 <p align="center">
     <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js" download><img src="http://img.shields.io/badge/download-DEVELOPMENT-brightgreen.svg"/></a>
-    &nbsp;&nbsp;&nbsp;
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.min.js" download><img src="http://img.shields.io/badge/download-PRODUCTION-red.svg"/></a>
-    &nbsp;&nbsp;&nbsp;
-    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js.zip" download><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-blue.svg"/></a>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://raw.githubusercontent.com/richard-kng/typeof.js/master/dist/typeof.js.zip" download><img src="http://img.shields.io/badge/download-.ZIP with DOCUMENTATION-orange.svg"/></a>
 </p>
 
 API & Usage [&#9652;](#index-)
