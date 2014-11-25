@@ -24,9 +24,10 @@ To support this project, you can at <a href="http://richard-kng.github.io/suppor
 Index [&#9652;](#project-top)
 -----
 <table>
-    <tr>
+    <tr> 
+        <td>&#9656; &nbsp;&nbsp;<a href="">Short Description</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#getting-started-">Getting Started</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="">Directory/File Structure</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
     </tr>
     <tr>
@@ -35,13 +36,11 @@ Index [&#9652;](#project-top)
         <td>&#9656; &nbsp;&nbsp;<a href="#contribution--a-note-">Contribution & A Note</a></td>
     </tr>
     <tr>
+        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Links</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#suggestions-requests--ideas-">Suggestions, Requests & Ideas</a></td>
+        <td>&#9656; &nbsp;&nbsp;<a href="#support-">Support</a></td>
         <td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#license-">License</a></td>
-    </tr>
-    <tr>
-        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
-        <td>&#9656; &nbsp;&nbsp;<a href="#issues--bugs-">Issues/Bugs</a></td>
     </tr>
 </table>
 Getting Started [&#9652;](#index-)
