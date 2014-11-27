@@ -9,8 +9,8 @@
     <a title="Travis CI" href="https://travis-ci.org/richard-kng/typeof.js"><img src="https://travis-ci.org/richard-kng/typeof.js.svg?branch=master"/></a>
     <a title="Coveralls" href='https://coveralls.io/r/richard-kng/typeof.js?branch=master'><img src='https://coveralls.io/repos/richard-kng/typeof.js/badge.png?branch=master'/></a>
     <a title="David" href="https://david-dm.org/richard-kng/typeof.js"><img src="https://david-dm.org/richard-kng/typeof.js.svg"/></a>
+    <a title="David" href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>
     <a title="David" href="https://david-dm.org/richard-kng/typeof.js#info=peerDependencies"><img src="https://david-dm.org/richard-kng/typeof.js/peer-status.svg"/></a>
-    <a title="David" href="https://david-dm.org/richard-kng/typeof.js#info=devDependencies"><img src="https://david-dm.org/richard-kng/typeof.js/dev-status.svg"/></a>    
 </p>
 <hr>
 <a id="project-description" href="#project-description"></a>
@@ -93,7 +93,8 @@ In the spirit of open source software development, this project is always open t
 
 License [&#9652;](#index-)
 -------
-&copy; 2014 "Richard KnG" (Richárd Szakács) <a href="LICENSE-MIT.txt"><b>Licensed under the MIT license</b></a>.
+&copy; 2014 "Richard KnG" (Richárd Szakács) &lt;<a href="mailto:richrdkng@gmail.com">richrdkng@gmail.com</a>&gt;<br>
+<a href="LICENSE-MIT.txt"><b>Licensed under the MIT license</b></a>.
 
 The license mentioned above applies to all parts of this software except as
 documented below
