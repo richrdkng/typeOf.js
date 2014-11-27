@@ -93,7 +93,7 @@ In the spirit of open source software development, this project is always open t
 
 License [&#9652;](#index-)
 -------
-&copy; 2014 "Richard KnG" (Richárd Szakács) &lt;<a href="mailto:richrdkng@gmail.com?subject=typeof.js">richrdkng@gmail.com</a>&gt;<br>
+&copy; 2014 "Richard KnG" (Richárd Szakács) &lt;<a href="mailto:richrdkng@gmail.com">richrdkng@gmail.com</a>&gt;<br>
 <a href="LICENSE-MIT.txt"><b>Licensed under the MIT license</b></a>.
 
 The license mentioned above applies to all parts of this software except as
