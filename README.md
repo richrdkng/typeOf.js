@@ -23,6 +23,9 @@ To support this project, you can at <a href="http://richard-kng.github.io/suppor
 </p>
 Index [&#9652;](#project-top)
 -----
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/richrdkng/typeOf.js.svg)](https://greenkeeper.io/)
+
 <table>
     <tr> 
         <td>&#9656; &nbsp;&nbsp;<a href="">Short Description</a></td>
